@@ -1,0 +1,11 @@
+
+.form-imc{
+    text-align: center;
+    padding:30vh
+}
+
+.button-calcularImc{
+    background-color: skyblue;
+    border-color: rgb(97, 172, 202);
+    border-radius: 10%;
+}
