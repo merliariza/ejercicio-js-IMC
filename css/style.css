@@ -1,11 +1,29 @@
-
-.form-imc{
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
     text-align: center;
-    padding:30vh
+    flex-direction: column; 
 }
+  .form-imc {
+    max-width: 300px;
+  }
+  .result {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
 
-.button-calcularImc{
-    background-color: skyblue;
-    border-color: rgb(97, 172, 202);
-    border-radius: 10%;
+  #resultImage {
+    max-width: 500px;
+    height: auto;
+    margin-top: 20px;
+    display: none; 
+  }
+
+button {
+    border: 50%;
+    background-color: lightblue;
+    border-color: beige;
 }
